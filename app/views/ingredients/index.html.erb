@@ -1,0 +1,31 @@
+<br>
+<div class='light leady'>Ingredients</div>
+<%= link_to '+', new_ingredient_path, class: 'btn btn-small' %>
+<table class='table'>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Label</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ingredients.each do |ingredient| %>
+      <tr>
+        <td><%= ingredient.name %></td>
+        <td><%= ingredient.category %></td>
+        <td><%= ingredient.short_label %></td>
+        <td><%= link_to 'Show', ingredient %></td>
+        <td><%= link_to 'Edit', edit_ingredient_path(ingredient) %></td>
+        <td><%= link_to 'Destroy', ingredient, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+

@@ -1,0 +1,15 @@
+<%= simple_form_for(@ingredient) do |f| %>
+
+  
+    <%= f.text_field :name, class: 'input-fat', placeholder: 'Ingredient' %><br>
+    <%= f.text_field :short_label, class: 'input-fat', placeholder: 'Label' %>
+    
+    <label class="light leady">Category</label>
+    <%= f.select :category, Ingredient::CATEGORYTYPES %>
+    <br><br>
+  <div class="actions">
+    <%= f.submit 'Submit', class: 'btn-primary btn-large' %>
+    <%= link_to 'Ingredients', @ingredient, class: 'btn btn-small' %>
+  </div>
+  
+<% end %>

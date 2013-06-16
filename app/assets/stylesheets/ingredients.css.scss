@@ -18,3 +18,95 @@ input.input-fat {
   font-weight: 300;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.posbox {
+  height: 140px;
+  width: 140px;
+  float: left;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 1px solid #e3e3e3;
+  font-size: 50px;
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
+}
+
+.posbadge {
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 30px;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
+}
+
+.label-lettuce {
+  background-color: #A2FF40;
+}
+
+.label-tomato {
+  background-color: #FF3C14;
+}
+
+.label-cucumber {
+  background-color: #57E83B;
+}
+
+.label-pickle {
+  background-color: #C2FF1D;
+}
+
+.label-capsicum {
+  background-color: #01AD10;
+}
+
+.label-olive {
+  background-color: #47484C;
+}
+
+.label-onion {
+  background-color: #FF4F7C;
+}
+
+.label-carrot {
+  background-color: #FF7907;
+}
+
+.label-jalapeno {
+  background-color: #004201;
+}
+.label-salt {
+  background-color: #ADC4B9; 
+}
+.label-pepper {
+  background-color: #616E68; 
+}
+
+.label-size {
+  background-color: #FF5844;
+}
+.label-type {
+  background-color: #47484C;
+}
+.label-cheese {
+  background-color: #FFE44E;
+}
+.label-avo {
+  background-color: #57E83B;
+}
+.label-toasted {
+  background-color: #FF7907;
+}
+.label-bread {
+  background-color: #CF9A45;
+}
+.label-bacon {
+  background-color: #FF4F7C;
+}
+
